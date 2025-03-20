@@ -1,0 +1,19 @@
+{
+    "name": "kakashi/filmes",
+    "version": "1.0.0",
+    "description": "teste composer",
+    "autoload": {
+        "psr-4": {
+            "Kakashi\\Filmes\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "josue",
+            "email": "josuesousa26@yahoo.com"
+        }
+    ],
+    "require": {
+        "cocur/slugify": "^4.0"
+    }
+}
