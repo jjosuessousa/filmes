@@ -1,5 +1,6 @@
 RewriteEngine On
+RewriteBase /filmes/public/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule ^(.*)$ index.php?request=$1 [QSA,L]
+RewriteRule ^ index.php [QSA,L]
+

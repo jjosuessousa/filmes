@@ -4,8 +4,12 @@
     "description": "teste composer",
     "autoload": {
         "psr-4": {
-            "Kakashi\\Filmes\\": "App/"
+            "Kakashi\\Filmes\\": "src/"
         }
+
+
+
+        
     },
     "authors": [
         {

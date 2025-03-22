@@ -20,7 +20,7 @@ class ComposerStaticInit4ac30facc6416d068f2ec2883c245b52
     public static $prefixDirsPsr4 = array (
         'Kakashi\\Filmes\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/App',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Cocur\\Slugify\\' => 
         array (

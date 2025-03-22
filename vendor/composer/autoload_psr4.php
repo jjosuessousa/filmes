@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Kakashi\\Filmes\\' => array($baseDir . '/App'),
+    'Kakashi\\Filmes\\' => array($baseDir . '/src'),
     'Cocur\\Slugify\\' => array($vendorDir . '/cocur/slugify/src'),
 );
